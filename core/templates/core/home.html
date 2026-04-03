@@ -1,0 +1,299 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Antonella Lopez - Senior Full-Stack Developer{% endblock %}
+{% block meta_description %}Senior full-stack developer portfolio for Antonella Lopez, focused on building scalable web products, modern interfaces, and reliable backend systems.{% endblock %}
+{% block meta_keywords %}Antonella Lopez, senior full-stack developer, Django, Python, JavaScript, PostgreSQL, MySQL, Nginx, Gunicorn, Bootstrap, web developer portfolio{% endblock %}
+{% block og_title %}Antonella Lopez - Senior Full-Stack Developer{% endblock %}
+{% block og_description %}Senior full-stack developer portfolio showcasing product-focused engineering, polished interfaces, and reliable backend systems.{% endblock %}
+{% block twitter_title %}Antonella Lopez - Senior Full-Stack Developer{% endblock %}
+{% block twitter_description %}Senior full-stack developer portfolio showcasing product-focused engineering, polished interfaces, and reliable backend systems.{% endblock %}
+
+{% block content %}
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Antonella Lopez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item nav-theme-toggle-item d-flex align-items-center">
+                    <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-label="Toggle theme" aria-checked="false" title="Toggle color theme">
+                        <span class="theme-toggle-track">
+                            <span class="theme-toggle-icon theme-toggle-icon-sun" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-sun"></use></svg></span>
+                            <span class="theme-toggle-thumb">
+                                <span id="theme-switch-icon" class="theme-thumb-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-sun"></use></svg></span>
+                            </span>
+                            <span class="theme-toggle-icon theme-toggle-icon-moon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-moon"></use></svg></span>
+                        </span>
+                        <span id="theme-switch-text" class="theme-toggle-label">Light mode</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-7">
+                <div class="hero-content">
+                    <p class="hero-eyebrow">Senior Full-Stack Developer</p>
+                    <h1 class="hero-title">I build polished digital products with reliable backend foundations.</h1>
+                    <p class="hero-subtitle">I help teams ship modern web experiences that are fast, maintainable, and designed for real product growth. My work blends frontend craft, backend discipline, and a strong focus on clean execution.</p>
+                    <div class="hero-metrics" aria-label="Key highlights">
+                        <div class="hero-metric">
+                            <strong>3+ years</strong>
+                            <span>Building and shipping production web products</span>
+                        </div>
+                        <div class="hero-metric">
+                            <strong>End-to-end delivery</strong>
+                            <span>Interfaces, APIs, and maintainable implementation</span>
+                        </div>
+                        <div class="hero-metric">
+                            <strong>Product-minded</strong>
+                            <span>Clear communication, ownership, and thoughtful execution</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary me-3">Get In Touch</a>
+                        <a href="#projects" class="btn btn-outline-light">View My Work</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center">
+                <div class="hero-visual">
+                    <div class="hero-monogram">
+                        <span>AL</span>
+                    </div>
+                    <div class="hero-badge hero-badge-top">Senior</div>
+                    <div class="hero-badge hero-badge-bottom">Product-minded engineer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">A developer who cares as much about clarity and maintainability as shipping speed.</p>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h3 class="content-heading">Building with ownership, quality, and long-term thinking</h3>
+                <p class="content-lead">Over the last several years, I have focused on delivering full-stack solutions that balance product needs with technical durability. I enjoy turning ambiguous ideas into clear implementation plans and production-ready features.</p>
+                <p>I work best on teams that value thoughtful architecture, smooth user experience, and strong collaboration. Whether I am shaping interfaces, integrating APIs, or improving an existing system, my goal is the same: make the product stronger and easier to evolve.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Quick Facts</h3>
+                        <div class="quick-facts-grid">
+                            <div class="quick-fact">
+                                <h4>3+</h4>
+                                <p>Years delivering software</p>
+                            </div>
+                            <div class="quick-fact">
+                                <h4>4+</h4>
+                                <p>Production and portfolio builds delivered</p>
+                            </div>
+                            <div class="quick-fact">
+                                <h4>Ownership</h4>
+                                <p>Comfortable across UI, backend, and integration work</p>
+                            </div>
+                            <div class="quick-fact">
+                                <h4>Available</h4>
+                                <p>Open to new product work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section section-muted">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">A practical toolkit for building modern products end to end.</p>
+        </div>
+        {% if skill_groups %}
+            {% for group in skill_groups %}
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3 class="skill-category-title">{{ group.name }}</h3>
+                </div>
+                <div class="row">
+                    {% for skill in group.skills %}
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card skill-card">
+                            <div class="skill-icon">
+                                {% if skill.icon %}
+                                    <img src="{{ skill.icon.url }}" alt="{{ skill.name }}" class="skill-icon-image">
+                                {% else %}
+                                    <span class="skill-icon-fallback" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-bolt"></use></svg></span>
+                                {% endif %}
+                            </div>
+                            <h5 class="skill-name">{{ skill.name }}</h5>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: {{ skill.level }}%;"></div>
+                            </div>
+                            <div class="skill-percentage">{{ skill.level_label }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="col-12 text-center">
+                <p class="empty-state-text">No skills available yet.</p>
+            </div>
+        {% endif %}
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Selected work that highlights product thinking, execution quality, and technical range.</p>
+        </div>
+        <div class="row">
+            {% for project in projects %}
+            <div class="col-lg-4 mb-4">
+                <div class="card project-card">
+                    {% if project.image %}
+                        <img src="{{ project.image.url }}" class="card-img-top project-image project-image-cover" alt="{{ project.title }}">
+                    {% else %}
+                        <div class="project-image">
+                            <span>{{ project.title|slice:":1"|upper }}</span>
+                        </div>
+                    {% endif %}
+                    <div class="card-body">
+                        <h3 class="card-title">{{ project.title }}</h3>
+                        <p class="card-text">{{ project.description }}</p>
+                        <div class="tech-stack">
+                            {% for tech in project.tech_stack_list %}
+                                <span class="tech-badge">{{ tech }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="{{ project.live_url }}" class="btn btn-primary flex-fill" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            <a href="{{ project.github_url }}" class="btn btn-outline-light flex-fill" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center">
+                <p class="empty-state-text">No projects available yet.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="section section-muted">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Testimonials</h2>
+            <p class="section-subtitle">Feedback from people who have trusted me to deliver thoughtful, reliable work.</p>
+        </div>
+        <div class="row">
+            {% for testimonial in testimonials %}
+            <div class="col-lg-4 mb-4">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <p class="testimonial-quote">"{{ testimonial.text }}"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                {% if testimonial.photo_url %}
+                                    <img src="{{ testimonial.photo_url }}" alt="{{ testimonial.name }}" class="testimonial-avatar-image">
+                                {% else %}
+                                    {{ testimonial.name|slice:":1"|upper }}
+                                {% endif %}
+                            </div>
+                            <div class="testimonial-info">
+                                <h5>{{ testimonial.name }}</h5>
+                                <p class="testimonial-role">{{ testimonial.role }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center">
+                <p class="empty-state-text">No testimonials available yet.</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">If you need a developer who can turn product requirements into dependable delivery, let’s talk.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="contact-intro">Share a quick overview of your product, team, or roadmap. I’m especially interested in web applications, internal tools, and product-focused engineering work.</p>
+                        <form class="contact-form" method="post">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="your.email@example.com" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">Antonella Lopez</div>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="footer-copyright">
+                © {% now "Y" %} Antonella Lopez. All rights reserved. Crafted with Django and Bootstrap.
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
