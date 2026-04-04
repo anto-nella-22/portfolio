@@ -212,6 +212,7 @@ This project is prepared for Railway with:
 - Gunicorn in `Procfile`
 - WhiteNoise static serving
 - env-driven production settings
+- `runtime.txt` pinning Python 3.12 for dependency compatibility
 
 Recommended Railway environment variables:
 
@@ -276,4 +277,3 @@ The visual direction and design system ideas are documented in:
 - Add richer Open Graph image support
 - Add automated tests for views and deployment-sensitive behavior
 - Add persistent cloud media storage for production
-
